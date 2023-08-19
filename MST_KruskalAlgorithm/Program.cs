@@ -146,7 +146,6 @@
 
             Console.WriteLine("Minimum Cost Spanning Tree: "
                               + minimumCost);
-            Console.ReadLine();
         }
 
         // Driver's Code
@@ -182,6 +181,7 @@
             graph.edge[4].weight = 4;
 
             graph.KruskalMST();
+            Console.ReadLine();
         }
     }
 }
